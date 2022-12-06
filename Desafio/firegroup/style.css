@@ -1,0 +1,45 @@
+h1{
+    color: brown;
+    background-color: lightcoral;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.emp, .servi{
+    background-color: brown;
+    color: black;
+} 
+.produ, .contac{
+    background-color: darkgoldenrod;
+    color: black;
+} 
+#Empresa .somos{
+    color: darkred;
+    font-family: cursive;
+}
+#piedepagina .ig, .face, .lin{
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-evenly;
+    background-color: black;
+    color: beige;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+}
+#imagenservicio{
+    padding: 50px;
+    display: flex;
+    flex-direction: initial;
+    
+}
